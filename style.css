@@ -1,0 +1,40 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    min-width: 350px;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+li:last-child {
+    border-bottom: none;
+} 
